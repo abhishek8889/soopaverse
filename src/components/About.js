@@ -2,6 +2,7 @@ import React from "react";
 import Coming from "./Coming";
 import './style.css';
 import TeamData from "./TeamData";
+
 function About() {
 
     return (

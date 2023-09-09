@@ -1,6 +1,9 @@
 import React from 'react';
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
+import { Link } from 'react-router-dom';
+
+
 function Header() {
     return (
         <>
@@ -22,7 +25,8 @@ function Header() {
                                     <a className="nav-link" href="#">Play</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/about">About us</a>
+                                    {/* <a className="nav-link" href="/about">About us</a> */}
+                                    <Link to="/about">About Us</Link>
                                 </li>
                             </ul>
                             <div className="icon-box">

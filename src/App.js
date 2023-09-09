@@ -14,13 +14,11 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter path="/app">
         <Routes>
-          <Route path="/" element={<Header />}>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="term" element={<Conditions />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="term" element={<Conditions />} />
         </Routes>
       </BrowserRouter>
       <Footer />
