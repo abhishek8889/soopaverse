@@ -9,7 +9,7 @@ function Header() {
                 <div className='container-fluid'>
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="logo">
-                            <a className="navbar-brand" href="#">
+                            <a className="navbar-brand" href="/">
                                 <img src="images/logo.png" alt="img" />
                             </a>
                         </div>
