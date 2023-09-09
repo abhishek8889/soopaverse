@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Dienstag';
+    src: url('DienstagBoldItalic.woff2') format('woff2'),
+        url('DienstagBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag   3';
+    src: url('Dienstag-Regular3.woff2') format('woff2'),
+        url('Dienstag-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag Hairline';
+    src: url('DienstagHairlineItalic.woff2') format('woff2'),
+        url('DienstagHairlineItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag   4';
+    src: url('Dienstag-Regular2.woff2') format('woff2'),
+        url('Dienstag-Regular2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag  5';
+    src: url('Dienstag-Regular2.woff2') format('woff2'),
+        url('Dienstag-Regular2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag';
+    src: url('Dienstag-Regular5.woff2') format('woff2'),
+        url('Dienstag-Regular5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag  3';
+    src: url('Dienstag-Regular4.woff2') format('woff2'),
+        url('Dienstag-Regular4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag   2';
+    src: url('Dienstag-Regular4.woff2') format('woff2'),
+        url('Dienstag-Regular4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag  4';
+    src: url('Dienstag-Regular3.woff2') format('woff2'),
+        url('Dienstag-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag  2';
+    src: url('Dienstag-Regular5.woff2') format('woff2'),
+        url('Dienstag-Regular5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag';
+    src: url('Dienstag-Regular6.woff2') format('woff2'),
+        url('Dienstag-Regular6.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag';
+    src: url('DienstagThin.woff2') format('woff2'),
+        url('DienstagThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dienstag Hairline';
+    src: url('DienstagHairline.woff2') format('woff2'),
+        url('DienstagHairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

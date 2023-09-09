@@ -1,0 +1,740 @@
+@media only screen and (min-width: 1199px) {
+    .container {
+        max-width: 1400 !important;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .container {
+        max-width: 1620px !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about-sec {
+        height: 1080px;
+    }
+
+    .mission-box {
+        margin-top: 179px !important;
+        max-width: 756px !important;
+
+    }
+    .Change_white_box ul li a {
+        font-size: 22px;
+    }
+    .Change_white_box {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    h3 {
+        font-size: 34px !important;
+    }
+
+    h1 {
+        font-size: 100px !important;
+    }
+
+    .mission-box {
+        margin-top: 115px !important;
+        max-width: 676px !important;
+        margin-left: 0px;
+        padding: 75px !important;
+    }
+
+    .about-sec {
+        height: 1000px;
+    }
+
+    .vision_content {
+        padding: 90px;
+    }
+
+    .vision_box {
+        max-width: 680px;
+        margin-top: -60px;
+    }
+
+    .team_wrapper {
+        padding-top: 100px;
+    }
+
+    .img_grid_wrapper {
+        padding: 50px 0 100px;
+    }
+
+    .comin_logo img {
+        width: 100%;
+        max-width: 780px;
+    }
+
+    .visit-text h1 {
+        font-size: 93px !important;
+    }
+
+    .visit-text p {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .condition_text::after {
+        height: 600px;
+    }
+
+    .changes_wrapper {
+        padding: 100px 0;
+    }
+
+    .Change_white_box {
+        padding: 40px;
+    }
+
+    .Change_white_box ul li {
+        margin-bottom: 25px;
+    }
+
+    .Change_white_box ul li a {
+        font-size: 20px;
+    }
+
+    .Change_white_box {
+        margin-right: 30px;
+    }
+
+    .wrapp_content {
+        padding-bottom: 50px;
+    }
+
+    .change_dummy h4 {
+        margin-bottom: 17px !important;
+    }
+
+    .icon-box {
+        bottom: 8px;
+    }
+}
+
+
+
+@media screen and (max-width: 1399px) {
+    .icon-box {
+        bottom: 5px;
+    }
+
+    .header a.nav-link {
+        padding: 17px 55px !important;
+        font-size: 18px;
+    }
+
+    .banner-logo h3:after {
+        height: 90px;
+        width: 610px;
+        left: -80px;
+        top: -27px;
+        background-size: 100% 100%;
+    }
+
+    .banner-logo {
+        margin-top: -100px;
+    }
+
+    .banner-img {
+        padding-top: 30px;
+    }
+
+    .banner-sec {
+        background: #2f2e7e;
+    }
+
+    h3 {
+        font-size: 28px !important;
+    }
+
+    h1 {
+        font-size: 90px !important;
+    }
+
+    .about-sec:before {
+        height: 364px;
+        bottom: 0px;
+
+    }
+
+    h2 {
+        font-size: 72px !important;
+    }
+
+    .mission-box {
+        margin-top: 45px !important;
+        max-width: 596px !important;
+        margin-left: 0px;
+        padding: 55px !important;
+    }
+
+    .hand-img {
+        padding-top: 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .vision_content {
+        padding: 60px;
+    }
+
+    .vision_box {
+        max-width: 600px;
+        margin-top: -50px;
+    }
+
+    .img_grid {
+        gap: 40px;
+    }
+
+    .about-sec {
+        height: 930px;
+    }
+
+    .visit-text h1 {
+        font-size: 80px !important;
+    }
+
+    .condition_text p {
+        font-size: 16px !important;
+        line-height: 1.5;
+    }
+
+    .Change_white_box ul li a {
+        font-size: 18px;
+    }
+
+    .Change_white_box {
+        padding: 30px 25px;
+    }
+
+    .Change_white_box {
+        margin-right: 20px;
+    }
+
+    .changes_wrapper {
+        padding: 90px 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .logo img {
+        width: 100%;
+        max-width: 247.323px;
+
+    }
+
+    .header a.nav-link {
+        padding: 13px 45px !important;
+        font-size: 16px;
+    }
+
+    .banner-logo img {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .footer-sec .icon-box a {
+        height: 40px !important;
+        width: 40px !important;
+        font-size: 20px;
+    }
+
+    .icon-box a {
+        height: 45px;
+        width: 45px;
+        font-size: 27px;
+    }
+
+    .banner-logo h3:after {
+        height: 80px;
+        width: 590px;
+        left: -60px;
+        top: -25px;
+        background-size: 100% 100%;
+    }
+
+    h3 {
+        font-size: 26px !important;
+    }
+
+
+    .footer-line-text marquee {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        max-width: 468px;
+        width: 100%;
+    }
+
+    body p {
+        font-size: 16px !important;
+    }
+
+    h1 {
+        font-size: 75px !important;
+    }
+
+    .row.custom-row {
+        padding-top: 60px;
+    }
+
+    .about-sec {
+        height: 800px;
+    }
+
+    .mission-box {
+        margin-top: 35px !important;
+        max-width: 516px !important;
+        margin-left: 0;
+        padding: 35px !important;
+    }
+
+    h2 {
+        font-size: 62px !important;
+    }
+
+    .vision_content {
+        padding: 50px;
+    }
+
+    .vision_box {
+        max-width: 550px;
+        margin-top: -50px;
+        margin-right: 15px;
+    }
+
+    .team_wrapper {
+        padding-top: 80px;
+    }
+
+    .img_grid {
+        gap: 30px;
+    }
+
+    .img_grid_wrapper {
+        padding: 50px 0 80px;
+    }
+
+    .comin_logo img {
+        width: 100%;
+        max-width: 620px;
+    }
+
+    .coming_soon_sec {
+        padding: 80px 0;
+    }
+
+    .visit-text h1 {
+        font-size: 74px !important;
+    }
+
+    .condition_text {
+        padding-top: 180px;
+    }
+
+    .Change_white_box {
+        margin-right: 0px;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    .wrapp_content {
+        padding-bottom: 30px;
+    }
+
+    .Change_white_box ul li a {
+        font-size: 16px;
+    }
+
+    .condition_text p {
+        font-size: 14px !important;
+        line-height: 1.5;
+    }
+
+    .change_dummy h4 {
+        margin-bottom: 10px !important;
+    }
+
+    .footer-sec .icon-box a {
+        height: 40px !important;
+        width: 40px !important;
+        font-size: 16px;
+    }
+
+    .footer-sec .icon-box img {
+        height: 13px;
+        width: 26px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header ul.navbar-nav {
+        padding-top: 70px;
+    }
+
+    .header .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .header a.nav-link {
+        margin-bottom: 10px;
+    }
+
+    .header .icon-box {
+        margin-bottom: 10px;
+    }
+
+    .bottom-footer {
+        padding: 15px;
+    }
+
+    .banner-logo {
+        margin-top: -53px;
+    }
+
+    .footer-sec {
+        background: #33317e;
+    }
+
+    .icon-box {
+        bottom: 0;
+    }
+
+    h3 {
+        font-size: 24px !important;
+    }
+
+    .banner-logo h3:after {
+        height: 70px;
+        width: 550px;
+        left: -50px;
+        top: -21px;
+        background-size: 100% 100%;
+    }
+
+    .footer-line-text {
+        padding: 12px 0 8px;
+    }
+
+    .footer-line-text marquee {
+        font-size: 16px;
+    }
+
+    .about-text p {
+        max-width: inherit;
+        width: 100%;
+    }
+
+    .comin_logo img {
+        width: 100%;
+        max-width: 580px;
+    }
+
+    .coming_soon_sec {
+        padding: 60px 0;
+    }
+
+    .about-img {
+        position: static !important;
+        width: 80% !important;
+    }
+
+    .about-text p {
+        max-width: inherit;
+    }
+
+    .hand-img {
+        padding-top: 430px;
+    }
+
+    .mission-box {
+        margin-top: 30px !important;
+        max-width: 556px !important;
+        margin-left: 10px;
+        padding: 35px !important;
+    }
+
+    .about-sec:before {
+        height: 244px;
+        bottom: -430px;
+    }
+
+    .vision_box {
+        max-width: 530px;
+        margin-top: -40px;
+        margin-right: 15px;
+    }
+
+    .vision_content {
+        padding: 40px;
+    }
+
+    .vision_box {
+        margin-top: -30px;
+    }
+
+    .visit-text h1 {
+        font-size: 55px !important;
+    }
+
+    .changes_wrapper {
+        padding: 70px 0;
+    }
+
+    .Change_white_box ul li {
+        margin-bottom: 20px;
+    }
+
+    .Change_white_box ul li a {
+        font-size: 14px;
+    }
+
+    button.navbar-toggler {
+        background: #fff;
+        outline: none;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo img {
+        width: 100%;
+        max-width: 167.323px;
+        margin-bottom: -30px;
+    }
+
+    .header {
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    .banner-logo h3:after {
+        height: 50px;
+        width: 480px;
+        left: -20px;
+        top: -12px;
+        background-size: 100% 100%;
+    }
+
+    .footer-sec .icon-box a {
+        height: 29px !important;
+        width: 27px !important;
+        font-size: 14px;
+    }
+
+    .footer-line-text {
+        padding: 9px 0 0;
+    }
+
+    .footer-line-text marquee {
+        font-size: 14px;
+    }
+
+    .bottom-footer a {
+        font-size: 14px;
+    }
+
+    .about-sec {
+        padding-top: 120px;
+    }
+
+    .about-sec {
+        height: 653px;
+    }
+
+    .vision_box {
+        margin-top: 0;
+    }
+
+    .mission-box {
+        max-width: 516px !important;
+        margin-left: 10px;
+    }
+
+    .comin_logo img {
+        width: 100%;
+        max-width: 440px;
+    }
+
+    .coming_soon_sec {
+        padding: 50px 0;
+    }
+
+    .img_grid_wrapper {
+        padding: 30px 0 60px;
+    }
+
+    .row.custom-row {
+        padding-top: 0;
+    }
+
+    .team_wrapper {
+        padding-top: 60px;
+    }
+
+    .condition_text {
+        padding-top: 130px;
+    }
+
+    .changes_wrapper {
+        padding: 50px 0;
+    }
+
+    .Change_white_box {
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #321987;
+        text-shadow: 4px 5px 0 #c83bff;
+    }
+
+    .visit-text h1 {
+        font-size: 35px !important;
+    }
+
+    .changes_wrapper {
+        padding: 30px 0;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    .condition_text p {
+        font-size: 13px !important;
+        line-height: 1.5;
+    }
+
+    .icon-box img {
+        width: 100%;
+        max-width: 35px;
+        height: 20px;
+    }
+
+    .footer-sec .icon-box img {
+        height: 10px;
+        width: 19px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h3 {
+        font-size: 18px !important;
+    }
+
+    .banner-logo h3:after {
+        height: 40px;
+        width: 100%;
+        left: 20px;
+        top: -8px;
+        background-size: 100% 100%;
+        max-width: 280px;
+    }
+
+    .banner-logo {
+        margin-top: -13px;
+    }
+
+    .bottom-footer a {
+        font-size: 12px;
+    }
+
+    .bottom-footer {
+        padding: 12px 10px;
+    }
+
+    .footer-line-text marquee {
+        font-size: 12px;
+    }
+
+    .footer-sec .icon-box a {
+        height: 24px !important;
+        width: 24px !important;
+        font-size: 12px;
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 140px;
+        margin-bottom: -20px;
+    }
+
+    .banner-img {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 45px !important;
+    }
+
+    body p {
+        font-size: 16px !important;
+        line-height: 1.5;
+    }
+
+    .about-img {
+        position: static !important;
+        width: 100% !important;
+    }
+
+    .img_grid {
+        gap: 20px;
+    }
+
+    .img_grid_wrapper {
+        padding: 30px 0 50px;
+    }
+
+    h2 {
+        font-size: 42px !important;
+    }
+
+    body p {
+        font-size: 15px !important;
+        line-height: 1.5;
+    }
+
+    .vision_box {
+        margin: 0 !important;
+    }
+
+    .vision_content {
+        padding: 30px;
+    }
+
+    .about-sec {
+        height: 573px;
+    }
+
+    .vision_box {
+        margin: 0 !important;
+    }
+
+    .vision_content {
+        padding: 30px;
+    }
+
+    .mission-box {
+        width: 100%;
+        padding: 30px !important;
+        max-width: 300px !important;
+        margin: auto !important;
+    }
+}
