@@ -6,20 +6,22 @@ import About from './components/About';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Conditions from './components/Conditions';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
-
+      <Header />
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/" element={<Banner />} />
           <Route path="/term" element={<Conditions />} />
         </Routes>
       </BrowserRouter>
-      <Home />
+      <Footer />
     </>
   );
 }
