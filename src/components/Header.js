@@ -28,7 +28,7 @@ const Header = (props) =>  {
                                     <a className="nav-link" href="#">Play</a>
                                 </li>
                                 <li className="nav-item" onClick={()=> navigate('/about')}>
-                                   <span sclassName="nav-link"> About Us</span> 
+                                   <span className="nav-link"> About Us</span> 
                                 </li>
                             </ul>
                             <div className="icon-box">

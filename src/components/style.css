@@ -108,7 +108,7 @@ body p {
     line-height: 28px;
 }
 
-.header a.nav-link {
+.header .nav-link {
     border-radius: 190px;
     border: 1px solid #151271;
     background: rgba(0, 0, 0, 0.09);
@@ -123,6 +123,7 @@ body p {
     text-transform: uppercase;
     padding: 17px 60px !important;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 nav.navbar.navbar-expand-lg {
