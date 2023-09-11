@@ -1,10 +1,13 @@
 import React from 'react';
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
-function Header() {
+
+const Header = (props) =>  {
+
+    const navigate = useNavigate();
     return (
         <>
 
@@ -24,9 +27,8 @@ function Header() {
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Play</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="/about">About us</a>
-                                    {/* <Link to="/about">About Us</Link> */}
+                                <li className="nav-item" onClick={()=> navigate('/about')}>
+                                   <span sclassName="nav-link"> About Us</span> 
                                 </li>
                             </ul>
                             <div className="icon-box">

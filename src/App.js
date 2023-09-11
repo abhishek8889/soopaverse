@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import Banner from './components/Banner';
 import About from './components/About';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,17 +9,20 @@ import Footer from './components/Footer';
 
 
 function App() {
+
+  const wrapComponent = (child)=>{
+    return <><Header />{child} <Footer /></>
+  }
+
   return (
     <>
-      <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="term" element={<Conditions />} />
+          <Route path="/" element={wrapComponent(<Home /> )} />
+          <Route path="/about" element={wrapComponent(<About />)} />
+          <Route path="/term" element={wrapComponent(<Conditions />)} />
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
   );
 }
