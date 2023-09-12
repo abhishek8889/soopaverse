@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import { useNavigate } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 
 
@@ -25,10 +26,10 @@ const Header = (props) =>  {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Play</a>
+                                    <Link to="/" className='nav-link'> Play </Link>
                                 </li>
-                                <li className="nav-item" onClick={()=> navigate('/about')}>
-                                   <span className="nav-link"> About Us</span> 
+                                <li className="nav-item">
+                                <Link to="/about" className='nav-link'> About us </Link>
                                 </li>
                             </ul>
                             <div className="icon-box">

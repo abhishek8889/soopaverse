@@ -1,7 +1,9 @@
 import React from "react";
 
 import './style.css';
-import "./responsive.css"
+import "./responsive.css";
+import {Link} from "react-router-dom";
+
 function Footer() {
 
     return (
@@ -28,16 +30,13 @@ function Footer() {
 
                     <div className="bottom-footer">
                         <div className="footter-box">
-
-                            <a href="term"> Terms & Conditions</a>
+                            <Link to="/term">Terms & Conditions</Link>
                         </div>
                         <div className="footter-box">
-
-                            <a href="#"> ©2023 SoopaverseLLC</a>
+                            <Link to="/"> ©2023 SoopaverseLLC</Link>
                         </div>
                         <div className="footter-box">
-
-                            <a href="/about"> About Us</a>
+                            <Link to="/about">About Us</Link>
                         </div>
 
                     </div>
