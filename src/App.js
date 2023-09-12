@@ -3,7 +3,7 @@ import React from 'react';
 
 import Banner from './components/Banner';
 import About from './components/About';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import Conditions from './components/Conditions';
 import Header from './components/Header';
@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Header />}>
             <Route path="/" element={<Home />} />
@@ -22,7 +21,6 @@ function App() {
             <Route path="term" element={<Conditions />} />
           </Route>
         </Routes>
-      </BrowserRouter>
       <Footer />
     </>
   );
