@@ -35,7 +35,8 @@ const Header = (props) =>  {
                             <div className="icon-box">
                                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                                 <a href="#"><i className="fab fa-discord"></i></a>
-                                <a href="#" className='book-img'> <img src='images/book_icon.png' /> </a>
+                                {/* <a href="#" className='book-img'> <img src='images/book_icon.png' /> </a> */}
+                                <Link to="https://soopaverse.gitbook.io/soopaverse/" ><img src='images/book_icon.png' /></Link>
                             </div>
                         </div>
                     </nav>
