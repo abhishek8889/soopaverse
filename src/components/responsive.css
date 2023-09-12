@@ -127,16 +127,18 @@
         font-size: 18px;
     }
 
+     
     .banner-logo h3:after {
-        height: 90px;
-        width: 610px;
-        left: -80px;
-        top: 9px;
         background-size: 100% 100%;
+        height: 90px;
+        left: 0px;
+        top: 0;
+        width: 610px;
+        bottom: 0;
     }
+    .banner-logo h3 {
+        height: 175px;
 
-    .banner-logo {
-        margin-top: -100px;
     }
 
     .banner-img {
@@ -221,6 +223,8 @@
     .changes_wrapper {
         padding: 90px 0;
     }
+
+   
 }
 
 @media screen and (max-width: 1199px) {
@@ -376,6 +380,16 @@
         height: 13px;
         width: 26px;
     }
+
+    .banner-logo h3 {
+        height: 205px;
+    }
+    .banner-sec {
+        padding-bottom: 0;
+    }
+    .banner-logo h3:after {
+        width: 560px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -417,11 +431,9 @@
 
     .banner-logo h3:after {
         height: 70px;
-        width: 550px;
-        left: -50px;
-        top: -21px;
-        background-size: 100% 100%;
+    
     }
+
 
     .footer-line-text {
         padding: 12px 0 8px;
@@ -505,6 +517,12 @@
         outline: none;
         border: none;
     }
+    .banner-text {
+        margin-top: -146px;
+    }
+    .banner-logo h3 {
+        height: 170px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -523,13 +541,9 @@
     }
 
     .banner-logo h3:after {
-        height: 50px;
+        height: 70px;
         width: 480px;
-        left: -20px;
-        top: -12px;
-        background-size: 100% 100%;
     }
-
     .footer-sec .icon-box a {
         height: 29px !important;
         width: 27px !important;
@@ -631,6 +645,13 @@
         height: 10px;
         width: 19px;
     }
+    
+    .banner-text {
+        margin-top: -106px;
+    }
+    .banner-logo h3 {
+        height: 140px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -638,15 +659,12 @@
         font-size: 18px !important;
     }
 
-    .banner-logo h3:after {
-        height: 40px;
-        width: 100%;
-        left: 20px;
-        top: -8px;
-        background-size: 100% 100%;
-        max-width: 280px;
+  
+    .banner-logo h3 {
+        height: 80px;
     }
-
+   
+    
     .banner-logo {
         margin-top: -13px;
     }
@@ -735,5 +753,13 @@
         padding: 30px !important;
         max-width: 300px !important;
         margin: auto !important;
+    }
+
+    .banner-logo h3:after {
+        height: 50px;
+        width: 460px;
+    }
+    .banner-text {
+        margin-top: -60px;
     }
 }
