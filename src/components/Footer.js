@@ -12,7 +12,7 @@ function Footer() {
                 <div className="container-fluid">
                     <div className="footer-line">
                         <div className="footer-line-text">
-                            <marquee width="100%" direction="left">The game is in under process, Coming Soon!  -  The game is in under process, Coming Soon!  -  The game is in under process, Coming Soon!  -  The game is in under process, Coming Soon!</marquee>
+                            <marquee width="100%" direction="left">The game is in under development, Coming Soon!  -  The game is in under development, Coming Soon!  -  The game is in under development, Coming Soon!  -  The game is in under development, Coming Soon!</marquee>
                         </div>
                     </div>
 
@@ -22,8 +22,8 @@ function Footer() {
 
                         </div>
                         <div className="icon-box">
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="#"><i className="fab fa-discord"></i></a>
+                                <Link to="https://twitter.com/soopaverse" ><i className="fa-brands fa-x-twitter"></i></Link>
+                                <Link to="https://discord.gg/soopaverse" ><i className="fab fa-discord"></i></Link>
                                 <Link to="https://soopaverse.gitbook.io/soopaverse/" ><img src='images/book_icon.png' /></Link>
                             </div>
                     </div>

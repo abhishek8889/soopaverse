@@ -191,9 +191,7 @@
         margin-top: -50px;
     }
 
-    .img_grid {
-        gap: 40px;
-    }
+
 
     .about-sec {
         height: 930px;
@@ -226,7 +224,12 @@
 
    
 }
-
+@media screen and (min-width: 1200px){
+    .img_grid_wrapper .container {
+        max-width: 850px;
+    }
+    }
+     
 @media screen and (max-width: 1199px) {
 
     .logo img {
@@ -320,9 +323,7 @@
         padding-top: 80px;
     }
 
-    .img_grid {
-        gap: 30px;
-    }
+
 
     .img_grid_wrapper {
         padding: 50px 0 80px;
@@ -390,6 +391,14 @@
     .banner-logo h3:after {
         width: 560px;
     }
+    .banner-text {
+        margin-top: -156px;
+    }
+    .banner-logo h3:after {
+        width: 560px;
+        left: -10px;
+        top: -9px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -433,8 +442,6 @@
         height: 70px;
     
     }
-
-
     .footer-line-text {
         padding: 12px 0 8px;
     }
@@ -521,7 +528,15 @@
         margin-top: -146px;
     }
     .banner-logo h3 {
-        height: 170px;
+        height: 150px;
+    }
+    .banner-text {
+        margin-top: -125px;
+    }
+    .banner-logo h3:after {
+        height: 70px;
+        width: 500px;
+        top: -4px;
     }
 }
 
@@ -541,8 +556,9 @@
     }
 
     .banner-logo h3:after {
-        height: 70px;
-        width: 480px;
+        height: 65px;
+        width: 390px;
+        left: 0;
     }
     .footer-sec .icon-box a {
         height: 29px !important;
@@ -647,19 +663,21 @@
     }
     
     .banner-text {
-        margin-top: -106px;
+        margin-top: -100px;
     }
     .banner-logo h3 {
         height: 140px;
+    }
+    .banner-logo {
+        margin-top: -103px;
     }
 }
 
 @media screen and (max-width: 575px) {
     h3 {
-        font-size: 18px !important;
+        font-size: 16px !important;
     }
 
-  
     .banner-logo h3 {
         height: 80px;
     }
@@ -711,9 +729,6 @@
         width: 100% !important;
     }
 
-    .img_grid {
-        gap: 20px;
-    }
 
     .img_grid_wrapper {
         padding: 30px 0 50px;
@@ -760,6 +775,10 @@
         width: 460px;
     }
     .banner-text {
-        margin-top: -60px;
+        margin-top: -40px;
+    }
+    .banner-logo h3:after {
+        height: 40px;
+        width: 270px;
     }
 }

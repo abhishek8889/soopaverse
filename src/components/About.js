@@ -13,8 +13,7 @@ function About() {
                         <div className="col-lg-7 col-md-12">
                             <div className="about-text">
                                 <h1>about us</h1>
-                                <p>At Soopaverse, we believe in the power of individual, everyday heroes to
-                                    change our world for the better. Through blockchain technology, we’re fostering a community and encouraging people to band together to solve real-world challenges. Join our quest to protect the planet, empower others, and build a brighter future for all.</p>
+                                <p>Soopaverse is a platform that enables users to become real-life heroes by doing good deeds, earning rewards, and customizing their hero characters</p>
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12">
@@ -24,8 +23,7 @@ function About() {
                         </div>
                         <div className="mission-box">
                             <h2>mission</h2>
-                            <p>Our mission is to empower a community of everyday heroes to make a positive impact on the world. We accomplish this through blockchain technology,
-                                which allows us to collaborate and solve real-world challenges together.</p>
+                            <p>To inspire and empower individuals to become real-life heroes in their communities by doing good deeds, spreading kindness, and making the world a better place</p>
                         </div>
                     </div>
                 </div>
