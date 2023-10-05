@@ -12,7 +12,8 @@
 
 @media screen and (min-width: 1600px) {
     .about-sec {
-        height: 1080px;
+        /* height: 1080px; */
+        height: 742px;
     }
 
     .mission-box {
@@ -45,7 +46,8 @@
     }
 
     .about-sec {
-        height: 1000px;
+        /* height: 1000px; */
+        height: 660px;
     }
 
     .vision_content {
@@ -62,7 +64,8 @@
     }
 
     .img_grid_wrapper {
-        padding: 50px 0 100px;
+        /* padding: 50px 0 100px; */
+        padding: 50px 0 35px;
     }
 
     .comin_logo img {
@@ -194,7 +197,8 @@
 
 
     .about-sec {
-        height: 930px;
+        /* height: 930px; */
+        height: 588px;
     }
 
     .visit-text h1 {
@@ -295,7 +299,11 @@
     }
 
     .about-sec {
-        height: 800px;
+        /* height: 800px; */
+        height: 475px;
+        padding-top: 120px;
+
+
     }
 
     .mission-box {
@@ -405,9 +413,18 @@
     .header ul.navbar-nav {
         padding-top: 70px;
     }
+    .logo img {
+        max-width: 300px;
+        margin-bottom: -26px;
+    }
 
     .header .navbar-toggler:focus {
         box-shadow: none;
+    }
+    .about-sec {
+        /* height: 800px; */
+        height: 378px;
+        padding-top: 90px;
     }
 
     .header a.nav-link {
@@ -474,7 +491,8 @@
     }
 
     .hand-img {
-        padding-top: 430px;
+        /* padding-top: 430px; */
+        padding-top: 0px;
     }
 
     .mission-box {
@@ -583,7 +601,9 @@
     }
 
     .about-sec {
-        height: 653px;
+        /* height: 653px; */
+        height: 297px;
+        padding-top: 80px;
     }
 
     .vision_box {
@@ -735,7 +755,8 @@
     }
 
     h2 {
-        font-size: 42px !important;
+        /* font-size: 42px !important; */
+        font-size: 25px !important;
     }
 
     body p {
@@ -752,9 +773,9 @@
     }
 
     .about-sec {
-        height: 573px;
+        /* height: 573px; */
+        height: 202px;
     }
-
     .vision_box {
         margin: 0 !important;
     }
@@ -782,3 +803,4 @@
         width: 270px;
     }
 }
+

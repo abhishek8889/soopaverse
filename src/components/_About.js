@@ -8,13 +8,9 @@ function About() {
     return (
         <>
             <div className="about-sec">
-                {/* <div className="container-fluid"> */}
-                    {/* <div className="row custom-row"> */}
-                        <div className="hand-img">
-                            <img src='images/earth_back.jpeg' alt='img' />
-                        </div>
-                        
-                        {/* <div className="col-lg-7 col-md-12">
+                <div className="container">
+                    <div className="row custom-row">
+                        <div className="col-lg-7 col-md-12">
                             <div className="about-text">
                                 <h1>about us</h1>
                                 <p>Soopaverse is a platform that enables users to become real-life heroes by doing good deeds, earning rewards, and customizing their hero characters</p>
@@ -28,17 +24,16 @@ function About() {
                         <div className="mission-box">
                             <h2>mission</h2>
                             <p>To inspire and empower individuals to become real-life heroes in their communities by doing good deeds, spreading kindness, and making the world a better place</p>
-                        </div> */}
-                    {/* </div> */}
-                {/* </div> */}
-            </div>
-            <div className="hand-img">
-                            <img src='images/mission_vissionstatue2.jpeg' alt='img' />
+                        </div>
+                    </div>
+                </div>
             </div>
 
-           
+            <div className="hand-img">
+                <img src='images/hand-img.png' alt='img' />
+            </div>
             <TeamData />
-            {/* <Coming/> */}
+            <Coming/>
         </>
     )
 }

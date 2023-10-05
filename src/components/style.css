@@ -355,12 +355,12 @@ button.bt {
 }
 
 .hand-img {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     background: #2f2e7e;
 }
 
 .about-sec:before {
-    content: '';
+    /* content: ''; */
     background: #23245C;
     position: absolute;
     height: 338px;
@@ -390,7 +390,7 @@ button.bt {
 }
 
 .team_text {
-    max-width: 553px;
+    /* max-width: 553px; */
     margin: auto;
     text-align: center;
 }
@@ -572,3 +572,23 @@ button.bt {
     font-weight: 200 !important;
 
 }
+
+/* new css : */
+.img_row{
+    overflow: hidden;
+}
+.img_row div img {
+    width: 100%;
+    border: 3px solid #e937d3;
+    border-radius: 10px;
+}
+/* .img_rows{
+    overflow: hidden;
+} */
+.img_rows div img {
+    height: 200px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+/* end new css */
