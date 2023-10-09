@@ -10,8 +10,8 @@ const DummyData = () => {
 
     ];
     const partnerships = [
-        { id: 1, img: 'images/atlas_logo.png' ,name:'Atlas 3',link:'https://twitter.com/SoopaSOL'},
-        { id: 2, img: 'images/asset_logo.jpeg' ,name:'Asset Dash',link:'https://twitter.com/Ghalib151'},
+        { id: 1, img: 'images/logo1.png' ,name:'Atlas 3',link:'https://twitter.com/SoopaSOL'},
+        { id: 2, img: 'images/logo2.png' ,name:'Asset Dash',link:'https://twitter.com/Ghalib151'},
         // { id: 3, img: 'images/IMG_0461.jpeg' ,name:'Maggie Eden',link:'https://twitter.com/INardacchione'},
         // { id: 4, img: 'images/IMG_0464.jpeg' ,name:'Oceana',link:''},
 
@@ -60,7 +60,7 @@ const DummyData = () => {
             </div>
         </div>
             <div className="our_team_sec container-fluid">
-                <div className="team_wrapper">
+                <div className="super_wrapper">
                     <div className="team_text">
                         <h2>Partnerships</h2>
                     </div>
@@ -70,7 +70,7 @@ const DummyData = () => {
                         <div className="img_rows row">
                             {
                                 partnerships.map((partner) => (
-                                    <div className="col-md-3 col-lg-3 col-sm-6 my-1"  key={partner.id}>
+                                    <div className="col-lg-3 col-md-6"  key={partner.id}>
                                             <img src={`${partner.img}`}  atr={`${partner.name}`} />
                                                 <div className="imp-data">
                                                     <h2>{partner.name}</h2>

@@ -29,9 +29,9 @@ function Footer() {
                     </div>
 
                     <div className="bottom-footer">
-                        <div className="footter-box">
+                        {/* <div className="footter-box">
                             <Link to="/term">Terms & Conditions</Link>
-                        </div>
+                        </div> */}
                         <div className="footter-box">
                             <Link to="/"> ©2023 SoopaverseLLC</Link>
                         </div>

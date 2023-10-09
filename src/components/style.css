@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Slackey&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Dela+Gothic+One&display=swap');
 @font-face {
     font-family: 'Dienstag';
     src: url('../fonts/Dienstag-Regular6.woff2') format('woff2'),
@@ -399,10 +400,6 @@ button.bt {
     margin: 0 !important;
 }
 
-.team_wrapper {
-    padding-top: 130px;
-}
-
 .coming_soon_sec {
     background-image: url('../images/bg_line_img.png');
     background-color: #2F2E7E;
@@ -411,6 +408,13 @@ button.bt {
     background-size: cover;
     background-position: center;
 
+}
+
+.about_inner {
+    background-image: url("../images/earth_back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .comin_logo {
@@ -422,7 +426,8 @@ button.bt {
     display: flex;
     flex-wrap: wrap;
 }
-.img_grid > div {
+
+.img_grid>div {
     width: 50%;
     padding: 0px 15px;
 }
@@ -549,6 +554,7 @@ button.bt {
     max-width: 35px;
     height: 23px;
 }
+
 .imp-data {
     display: flex;
     justify-content: space-around;
@@ -566,29 +572,93 @@ button.bt {
 }
 
 
-.imp-data h2{
+.imp-data h2 {
     /* font-size: 20px !important; */
     font-size: 14px !important;
     font-weight: 200 !important;
 
 }
 
+.team_wrapper {
+    padding-top: 130px;
+}
+
 /* new css : */
-.img_row{
+.img_row {
     overflow: hidden;
 }
+
 .img_row div img {
     width: 100%;
     border: 3px solid #e937d3;
     border-radius: 10px;
 }
+
 /* .img_rows{
     overflow: hidden;
 } */
 .img_rows div img {
-    height: 200px;
-    max-width: 100%;
     width: 100%;
     border-radius: 5px;
 }
+
+
+.hand-img {
+    background-image: url("../images/mission_vissionstatue2.png");
+    height: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.white_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.white_data {
+    width: 100%;
+    max-width: 540px;
+    text-align: center;
+    /* height: 360px; */
+    padding: 85px 20px;
+}
+
+.white_data {
+    background-image: url("../images/cloud-1.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.white_data p {
+    font-size: 12px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.white_data h4 {
+    color: #000 !important;
+}
+
+.custom_data {
+    max-width: 80%;
+    margin: auto;
+    /* padding-top: 40px; */
+}
+
+.create_new {
+    background-image: url("../images/cloud-2.png");
+}
+
+.about_inner h3 {
+    padding-top: 80px;
+    color: #FFE828 !important;
+    font-weight: 400 !important;
+    font-family: 'Dela Gothic One', cursive !important;
+    font-size: 60px !important;
+    text-shadow: 1px 1px 2px black, 0 0 1em , 0 0 0.2em darkblue;
+}
+
 /* end new css */
