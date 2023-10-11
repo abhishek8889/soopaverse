@@ -67,7 +67,7 @@ const DummyData = () => {
                 </div>
                 <div className="img_grid_wrapper">
                     <div className="container-fluid">
-                        <div className="img_rows row">
+                        <div className="img_rows row justify-content-md-center">
                             {
                                 partnerships.map((partner) => (
                                     <div className="col-lg-3 col-md-6"  key={partner.id}>
