@@ -11,7 +11,6 @@ function LoadingSpinner() {
   return (
     <div className="spinner-overlay">
       <img src={spinnerImage} alt="Loading..." className="spinner-image" />
-      <div className="loading-text">Loading..</div>
     </div>
   );
 }
