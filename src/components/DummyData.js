@@ -3,16 +3,16 @@ import React from "react";
 import {Link} from "react-router-dom";
 const DummyData = () => {
     const dummyData = [
-        { id: 1, img: 'images/IMG_0455.jpeg' ,name:'Soopa',twitter:'https://twitter.com/SoopaSOL',position:'Co-Founder'},
-        { id: 2, img: 'images/IMG_0458.jpeg' ,name:'Uncle-G',twitter:'https://twitter.com/Ghalib151',position:'Co-Founder'},
-        { id: 3, img: 'images/IMG_0461.jpeg' ,name:'Ivano Nardacchione',twitter:'https://twitter.com/INardacchione',position:'Artist'},
-        { id: 4, img: 'images/IMG_0464.jpeg' ,name:'Prashant Gautam',twitter:'',position:'Full-Stack Developer'},
+        { id: 1, img: 'images/catnewbie.jpeg' ,name:'Soopa',twitter:'https://twitter.com/SoopaSOL',position:'Co-Founder'},
+        { id: 2, img: 'images/fishnewbie.jpeg' ,name:'Uncle-G',twitter:'https://twitter.com/Ghalib151',position:'Co-Founder'},
+        { id: 3, img: 'images/windnewbie.jpeg' ,name:'Ivano Nardacchione',twitter:'https://twitter.com/INardacchione',position:'Artist'},
+        { id: 4, img: 'images/plantnewbie.jpeg' ,name:'Hello Moon',twitter:'https://twitter.com/HelloMoon',position:'Full-Stack Developer'},
 
     ];
     const partnerships = [
-        { id: 1, img: 'images/logo1.png' ,name:'Atlas 3',link:'https://twitter.com/SoopaSOL'},
-        { id: 2, img: 'images/logo2.png' ,name:'Asset Dash',link:'https://twitter.com/Ghalib151'},
-        // { id: 3, img: 'images/IMG_0461.jpeg' ,name:'Maggie Eden',link:'https://twitter.com/INardacchione'},
+        { id: 1, img: 'images/logo1.png' ,name:'Atlas 3',link:''},
+        { id: 2, img: 'images/logo2.png' ,name:'Asset Dash',link:''},
+        { id: 3, img: 'images/moonLogo.png' ,name:'Hello Moon',link:' https://twitter.com/HelloMoon'},
         // { id: 4, img: 'images/IMG_0464.jpeg' ,name:'Oceana',link:''},
 
     ];

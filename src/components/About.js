@@ -43,7 +43,10 @@ function About() {
                     <div className="white_data create_new">
                         <div className="custom_data">
                             <h4>Mission</h4>
-                            <p>Our mission is to create a global network of superheroes dedicated to spreading kindness and making a positive impact on the world. We aim to empower individuals to become real-life heroes by performing acts of kindness, earning rewards, and embracing their unique hero personas.</p>
+                            {/* <p>Our mission is to create a global network of superheroes dedicated to spreading kindness and making a positive impact on the world. We aim to empower individuals to become real-life heroes by performing acts of kindness, earning rewards, and embracing their unique hero personas.</p> */}
+                            <p>
+                                Our mission is to create a global network of Soopaheroes dedicated to spreading kindness and making a positive impact on the world
+                            </p>
 
                         </div>
                     </div>
@@ -52,7 +55,9 @@ function About() {
                             <h4>Vision
 
                             </h4>
-                            <p>Our vision is to build a community-driven platform where individuals can come together to make a difference in the lives of others. Through our platform, we strive to inspire a culture of compassion, collaboration, and personal growth, where every person has the opportunity to unleash their inner superhero and create a brighter future for all.
+                            <p>
+                                Our vision is to build a community-driven platform where individuals can come together to make a difference in the lives of others
+                            {/* <p>Our vision is to build a community-driven platform where individuals can come together to make a difference in the lives of others. Through our platform, we strive to inspire a culture of compassion, collaboration, and personal growth, where every person has the opportunity to unleash their inner superhero and create a brighter future for all. */}
                                 
                             </p>
                         </div>
