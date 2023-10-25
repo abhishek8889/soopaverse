@@ -7,7 +7,7 @@ function Home() {
             <div className="banner-sec">
                 <div className='container-fluid'>
                     <div className="banner-img">
-                        <img src='images/banner-img.png' alt='img' />
+                        <img src='images/banner-img-new.jpg' alt='img' />
                     </div>
                     <div className="banner-text">
                         <div className="banner-logo">
