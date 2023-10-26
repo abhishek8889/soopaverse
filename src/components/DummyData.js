@@ -13,6 +13,7 @@ const DummyData = () => {
         { id: 1, img: 'images/logo1.png' ,name:'Atlas 3',link:''},
         { id: 2, img: 'images/logo2.png' ,name:'Asset Dash',link:''},
         { id: 3, img: 'images/moonLogo.png' ,name:'Hello Moon',link:' https://twitter.com/HelloMoon'},
+        { id: 4, img: 'images/One-tree-logo.png' ,name:'One Tree Planted',link:''},
         // { id: 4, img: 'images/IMG_0464.jpeg' ,name:'Oceana',link:''},
 
     ];
