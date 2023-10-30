@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Conditions from './components/Conditions';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import spinnerImage from './images/spinner.png';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Conditions from "./components/Conditions";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import spinnerImage from "./images/spinner.png";
 
 function LoadingSpinner() {
   return (
@@ -24,23 +24,17 @@ function App() {
     }, 2000);
   }, []);
 
-  const wrapComponent = (child) => (
-    <div>
+  return (
+    <Router>
       <Header />
       {isLoading && <LoadingSpinner />}
-      {child}
-      <Footer />
-    </div>
-  );
-
-  return (
-    <>
       <Routes>
-        <Route path="/" element={wrapComponent(<Home />)} />
-        <Route path="/about" element={wrapComponent(<About />)} />
-        <Route path="/term" element={wrapComponent(<Conditions />)} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/term" element={<Conditions />} />
       </Routes>
-    </>
+      <Footer />
+    </Router>
   );
 }
 
