@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import logo from "../images/_logo.png"
-const Header = (props) => {
+import logo from "../images/_logo.png";
+
+const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+
+  const handleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <>
       <div className="header">
@@ -19,36 +30,41 @@ const Header = (props) => {
             <button
               className="navbar-toggler"
               type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+              onClick={handleMobileMenu}>
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
+              className={`collapse navbar-collapse${
+                mobileMenuOpen ? " show" : ""
+              }`} onClick={closeMobileMenu}>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link to={"/"} className="nav-link">Play</Link>
+                  <Link
+                    to={"/"}
+                    className="nav-link"
+                    onClick={() => setMobileMenuOpen(false)}>
+                    Play
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to={"/about"} className="nav-link">About us</Link>
+                  <Link
+                    to={"/about"}
+                    className="nav-link"
+                    onClick={() => setMobileMenuOpen(false)}>
+                    About us
+                  </Link>
                 </li>
               </ul>
               <div className="icon-box">
-                <Link to="https://twitter.com/soopaverse">
+                <a href="https://twitter.com/soopaverse">
                   <i className="fa-brands fa-x-twitter"></i>
-                </Link>
-                <Link to="https://discord.gg/soopaverse">
+                </a>
+                <a href="https://discord.gg/soopaverse">
                   <i className="fab fa-discord"></i>
-                </Link>
-                <Link to="https://soopaverse.gitbook.io/soopaverse/">
-                  <img src="images/book_icon.png"  alt="book-icon"/>
-                </Link>
+                </a>
+                <a href="https://soopaverse.gitbook.io/soopaverse/">
+                  <img src="images/book_icon.png" alt="book-icon" />
+                </a>
               </div>
             </div>
           </nav>

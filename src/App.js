@@ -26,14 +26,16 @@ function App() {
 
   return (
     <Router>
-      <Header />
-      {isLoading && <LoadingSpinner />}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/term" element={<Conditions />} />
-      </Routes>
-      <Footer />
+      <div>
+        <Header />
+        {isLoading && <LoadingSpinner />}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/term" element={<Conditions />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }

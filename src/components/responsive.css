@@ -655,6 +655,17 @@
         /* font-size: 28px !important; */
         font-size: 40px !important;
     }
+
+    button.navbar-toggler {
+        margin-bottom: 9px;
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -665,7 +676,8 @@
     }
 
     .header {
-        margin-top: 20px;
+        padding-top: 20px;
+        margin-top: 0px;
     }
 
     h3 {
@@ -982,12 +994,15 @@
     body {
         background-color: #2f2e7e !important;
     }
+
     .banner-img {
         padding-top: 57px;
     }
+
     .wrapper-data {
         margin-top: 30px;
     }
+
     .banner-text {
         margin-top: 87px;
     }
