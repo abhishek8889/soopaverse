@@ -3,7 +3,7 @@ import "./style.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import logo from "../images/_logo.png";
+import logo from "../images/_logo.png";  
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

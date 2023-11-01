@@ -964,7 +964,7 @@
     }
 
     .hand-img {
-        background-image: none;
+        background-image: url(../images/mission\ vission\ statue\ 31\ oct\ b.jpeg);
     }
 
     .white_data.create_new {
@@ -974,8 +974,11 @@
 
     .hand-img {
         height: auto;
+        padding-top: 60%;
     }
-
+    .white_box{
+        display: none;
+    }
     #root>div {
         display: flex;
         flex-wrap: wrap;
