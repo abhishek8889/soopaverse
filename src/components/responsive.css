@@ -831,6 +831,9 @@
         max-width: 205px;
         padding: 23px 10px;
     }
+    h2 {
+        font-size: 52px!important;
+    }
 }
 
 @media screen and (max-width: 575px) {
