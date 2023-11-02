@@ -669,7 +669,9 @@ button.bt {
     font-weight: bolder;
 }
 
-
+.banner-img {
+    padding-top: 30px;
+}
 
 /* spinner css : */
 
